@@ -1,0 +1,393 @@
+.body1 {
+    background-color:black;
+  }
+
+.body1{
+    font-family: 'Lacquer', sans serif;
+    color: white;
+}
+
+.name{
+    font-size: 12vw;
+    font-family: "Londrina Solid", sans-serif;
+    font-weight: 400;
+    text-align: center;
+    --bg-size: 400%;
+  --color-one: #FFE700;
+  --color-two: #FF598F;
+  background: linear-gradient(
+      90deg,
+      var(--color-one),
+      var(--color-two),
+      var(--color-one)
+    )
+    0 0 / var(--bg-size) 100%;
+  color: transparent;
+  background-clip: text;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .name {
+    animation: move-bg 8s linear infinite;
+  }
+  @keyframes move-bg {
+    to {
+      background-position: var(--bg-size) 0;
+    }
+  }
+}
+
+
+
+.image1{
+    max-width: 100%;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.topnav{
+      padding: 15px;
+      position: relative;
+      float: center;
+      font-size: 2.5vw;
+      text-align: cetner;
+      font-family: "Londrina Solid", sans-serif;
+      max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+
+.about{
+    color:black;
+    text-decoration: none;
+    transition: 0.2s;
+    background-color:#FFE700;
+    padding: 15px;
+    width:auto;
+    display:inline-block;
+    margin: 10px;
+}
+
+.about:hover{
+    color: white;
+}
+
+.portfolio{
+    color:black;
+    text-decoration: none;
+    transition: 0.2s;
+    background-color:#FD8A5E;
+    padding: 15px;
+    width:auto;
+    display:inline-block ;
+    margin: 10px;
+  
+}
+
+.portfolio:hover{
+    color: #FFE700;
+}
+
+.influence{
+    color:black;
+    text-decoration: none;
+    transition: 0.2s;
+    background-color:#FF598F;
+    padding: 15px;
+    width:auto;
+    display:inline-block ;
+    margin: 10px;
+  
+}
+
+.influence:hover{
+    color: #FD8A5E;
+}
+
+.career{
+    color:black;
+    text-decoration: none;
+    transition: 0.2s;
+    background-color:#00AEA0;
+    padding: 15px;
+    width:auto;
+    display:inline-block ;
+    margin: 10px;
+  
+}
+
+.career:hover{
+    color: #FF598F;
+}
+
+
+.quote{
+  font-size: 6vw;
+  padding: 25px;
+}
+
+.citation{
+  font-size: 4vw;
+  margin-left: 200px;
+  padding: 30px;
+}
+
+.backtotop{
+  color:black;
+    text-decoration: none;
+    transition: 0.2s;
+    background-color:#00AEA0;
+    text-align: center;
+
+}
+
+#footer {
+  background: #F1ECC2;
+  max-width: 100%;
+  max-height: 100%;
+  padding: 15px;
+}
+
+.home{
+  color:black;
+  text-decoration: none;
+  transition: 0.2s;
+  background-color:#FF598F;
+  padding: 15px;
+  width:auto;
+  display:inline-block ;
+  margin: 10px;
+
+}
+
+.home:hover{
+  color: #FD8A5E;
+}
+
+.body2{
+  font-family: 'Lacquer', sans serif;
+  color: white;
+  background-color: #FF598F;
+}
+
+.graffiti{
+  max-width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.blurb4{
+  color:white;
+    background-color:black;
+    width:auto;
+    display:inline-block ;
+    padding:15px;
+    font-size: 3vw;
+    text-align: center;
+}
+
+
+.keithstanding{
+  position: relative;
+  display: inline-block;
+  scale: 1.5;
+  bottom: 80px;
+}
+
+.harringblurb{
+  display: inline-block;
+  width: 50%;
+  padding: 1%;
+  font-size: 2vw;
+  text-align: right;
+  color: white;
+  font-weight: normal;
+  line-height: 2.6vw;
+}
+
+.body3{
+  background-color: #FFE700;
+  font-family: 'Lacquer', sans serif;
+}
+
+.aboutblurb{
+  color:white;
+    background-color:black;
+    width:auto;
+    display:inline-block ;
+    padding:15px;
+    font-size: 3vw;
+    text-align: center;
+}
+
+.blurb2{
+  display: inline-block;
+  width: 50%;
+  padding: 1%;
+  font-size: 1.5vw;
+  text-align: left;
+  color: black;
+  font-weight: normal;
+  line-height: 2.6vw;
+}
+
+.blurb3{
+ display: inline-block;
+  width: 50%;
+  padding: 1%;
+  font-size: 1.5vw;
+  text-align:left;
+  color: black;
+  font-weight: normal;
+  line-height: 2.6vw;
+}
+
+  .sittingpng{
+    display: inline-block;
+    scale: 1.2;
+  }
+
+  .standingimg{
+    max-width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .body4{
+    background-color:#00AEA0;
+    font-family: 'Lacquer', sans serif;
+    color: white;
+  }
+
+  .timmystanding{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  }
+
+  .careerblurb{
+    display: inline-block;
+  width: 47%;
+  padding: 1%;
+  font-size: 1.5vw;
+  text-align: left;
+  color: black;
+  font-weight: normal;
+  line-height: 2.6vw;
+  transition: 0.2s;
+  }
+
+  .careerblurb:hover{
+    color: white;
+  }
+
+  .careerblurb2{
+  display: inline-block;
+  width: 40%;
+  padding: 1%;
+  font-size: 1.5vw;
+  text-align: left;
+  color: black;
+  font-weight: normal;
+  line-height: 2.6vw;
+  transition: 0.2s;
+  }
+
+  .careerblurb2:hover{
+    color: white;
+  }
+
+  .careerblurb3{
+    display: inline-block;
+    width: 47%;
+    padding: 1%;
+    font-size: 1.5vw;
+    text-align: left;
+    color: black;
+    font-weight: normal;
+    line-height: 2.6vw;
+    transition: 0.2s;
+    }
+
+    .careerblurb3:hover{
+      color: white;
+    }
+
+    .careerblurb4{
+      display: inline-block;
+      width: 40%;
+      padding: 1%;
+      font-size: 1.5vw;
+      text-align: left;
+      color: black;
+      font-weight: normal;
+      line-height: 3vw;
+      transition: 0.2s;
+      }
+
+      .careerblurb4:hover{
+        color: white;
+      }
+
+  .body4{
+    font-family: 'Lacquer', sans serif;
+    color: white;
+    background-color: #FD8A5E;
+  }
+
+  .bookcover{
+    display: inline-block;
+      max-width: 50%;
+      max-height: 50%;
+  }
+
+  .bball{
+    display: inline-block;
+    max-width: 40%;
+      max-height: 40%;
+      position: relative;
+      bottom: 640px;
+  }
+
+
+  .mural{
+    display: inline-block;
+    max-width: 40%;
+      max-height: 40%;
+     position: relative;
+     bottom: 310px;
+  }
+  
+
+  .time{
+    display: inline-block;
+    max-width: 30%;
+    max-height: 30%;
+    position: relative;
+    left: 710px;
+    bottom: 690px;
+    margin-bottom: -600px;
+  }
+
+  .shoes{
+    display: inline-block;
+    max-width: 50%;
+    max-height: 50%;
+  }
+
+  .blurb6{
+    display: inline-block;
+  width: 90%;
+  padding: 1%;
+  font-size: 1.5vw;
+  text-align: left;
+  color: black;
+  font-weight: normal;
+  line-height: 2.6vw;
+  transition: 0.2s;
+  }
